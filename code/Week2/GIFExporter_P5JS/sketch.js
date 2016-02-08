@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-
+ background(0);
 ellipse(10,10,100,100);
 
 

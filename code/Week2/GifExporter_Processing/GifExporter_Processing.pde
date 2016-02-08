@@ -129,4 +129,10 @@ void renderMyDesign (float percent) {
   textAlign (CENTER); 
   String percentDisplayString = nf(percent, 1, 3);
   text (percentDisplayString, 340, 40);
+  
+  size(100, 100, P3D);
+translate(58, 48, 0); 
+rotateY(0.5);
+noFill();
+box(40);
 }
